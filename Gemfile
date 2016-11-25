@@ -18,6 +18,7 @@ end
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'dotenv-rails'
+gem 'ngrok-tunnel'
 end
 
 group :development do
